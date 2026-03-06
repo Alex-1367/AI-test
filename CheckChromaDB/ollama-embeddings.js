@@ -1,3 +1,5 @@
+// Complete RAG implementation using qwen2.5-coder:1.5b
+
 import { ChromaClient } from './chroma-client.js';
 
 export class OllamaEmbedding {

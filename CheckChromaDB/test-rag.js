@@ -1,3 +1,8 @@
+// Interactive Q&A system that answers questions using your knowledge base:
+// - Store documents with embeddings in ChromaDB
+// - Query them semantically
+// - Generate answers using qwen2.5-coder:1.5b
+
 import { OllamaEmbedding } from './ollama-embeddings.js';
 import { createInterface } from 'readline';
 

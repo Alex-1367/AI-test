@@ -1,3 +1,5 @@
+// Full-featured ChromaDB v2 client with all CRUD operations
+
 export class ChromaClient {
   constructor(baseURL = 'http://localhost:8000', tenant = 'default_tenant', database = 'default_database') {
     this.baseURL = baseURL;

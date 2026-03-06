@@ -1,3 +1,5 @@
+// Debug-oriented system showing vectors and embeddings
+
 import { ChromaClient } from './chroma-client.js';
 import { createInterface } from 'readline';
 
